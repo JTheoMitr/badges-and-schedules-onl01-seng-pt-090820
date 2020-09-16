@@ -6,4 +6,6 @@ def batch_badge_creator(people)
   new_array = []
   people.each do |person|
     new_array << badge_maker(person)
+  end
+  
 end
